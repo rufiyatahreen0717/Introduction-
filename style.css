@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+}
+
+.avatar {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #333;
+    margin: 10px 0 5px;
+    font-size: 24px;
+}
+
+.title {
+    color: #ff6b6b;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.bio {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.skills {
+    margin-bottom: 20px;
+}
+
+.skills span {
+    background: #f0f2f5;
+    color: #333;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin: 0 4px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#greetBtn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#greetBtn:hover {
+    background-color: #ff5252;
+}
+
+#message {
+    margin-top: 15px;
+    color: #2e7d32;
+    font-weight: bold;
+    font-size: 14px;
+}
+
